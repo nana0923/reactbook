@@ -1,34 +1,11 @@
 import React, { Component } from 'react';
-import ErrorBoundary from './ErrorBoundary';
-import LifeCycleSample from './LifeCycleSample';
-
-//랜덤색상을 생성
-function getRandomColor() {
-    return '#' + Math.floor(Math.random() * 16777215).toString(16);
-}
+import Info from './Info';
 
 class App extends Component {
-    state = {
-        color: "#000000"
+   
+        render() {
+            return <Info/>
+        }
     }
-
-    handleClick = () => {
-        this.setState({
-            color: getRandomColor()
-        });
-    }
-
-    render() {
-        return (
-            <div>
-                <button onClick={this.handleClick}>랜덤색상</button>
-                <ErrorBoundary>
-                    <LifeCycleSample color={this.state.color}/>
-                </ErrorBoundary>
-            </div>
-        );
-    }
-}
-
-export default App;
-
+    
+ export default App;
