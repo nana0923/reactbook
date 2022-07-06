@@ -56,7 +56,7 @@ class LifeCycleSample extends Component {
         }
     }
 
-    rener() {
+    render() {
         console.log('render');
     
         const style = {
