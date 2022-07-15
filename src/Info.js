@@ -8,8 +8,9 @@ const Info = () => {
         console.log(name);
         return () => {
             console.log('unmount');
+
         };
-      },[]);
+      },[name]);
 
     const onChangeName = e => {
         setName(e.target.value);
