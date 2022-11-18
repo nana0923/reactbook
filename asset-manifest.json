@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NaNa923/reactbook/static/css/main.e6c13ad2.css",
+    "main.js": "/NaNa923/reactbook/static/js/main.72c7db24.js",
+    "static/js/787.d5591ba7.chunk.js": "/NaNa923/reactbook/static/js/787.d5591ba7.chunk.js",
+    "index.html": "/NaNa923/reactbook/index.html",
+    "main.e6c13ad2.css.map": "/NaNa923/reactbook/static/css/main.e6c13ad2.css.map",
+    "main.72c7db24.js.map": "/NaNa923/reactbook/static/js/main.72c7db24.js.map",
+    "787.d5591ba7.chunk.js.map": "/NaNa923/reactbook/static/js/787.d5591ba7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.72c7db24.js"
+  ]
+}
